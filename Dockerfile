@@ -1,4 +1,4 @@
-From ubuntu
+From ubuntu:latest
 RUN apt-get update -y
 RUN apt-get install -y python-pip apache2
 COPY index.html /var/www/html/
